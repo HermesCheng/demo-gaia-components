@@ -1,0 +1,29 @@
+{
+  "name": "demo-gaia-components",
+  "version": "0.1.0",
+  "homepage": "https://github.com/HermesCheng/demo-gaia-components",
+  "authors": [
+    "hermescheng <hcheng@mozilla.com>"
+  ],
+  "description": "a demo webapp for gaia web components",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gaia-component": "gaia-components/gaia-component#~0.3.5",
+    "gaia-button": "gaia-components/gaia-button#~0.0.4",
+    "gaia-icons": "gaia-components/gaia-icons#~0.7.12",
+    "gaia-sub-header": "gaia-components/gaia-subheader#~0.4.0",
+    "gaia-text-input": "gaia-components/gaia-text-input#~0.1.1",
+    "gaia-theme": "gaia-components/gaia-theme#~0.4.6"
+  }
+}

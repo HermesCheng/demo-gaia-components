@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>demo-gaia-components</title>
+  <meta name="description" content="Demo app for using gaia-components" />
+  <link rel="stylesheet" href="bower_components/gaia-theme/gaia-theme.css">
+  <script src="bower_components/gaia-component/gaia-component.js"></script>
+  <link rel="stylesheet" href="bower_components/gaia-icons/gaia-icons.css">
+  <script src="bower_components/gaia-icons/gaia-icons.js"></script>
+  <script src="bower_components/gaia-button/gaia-button.js"></script>
+  <script src="bower_components/gaia-text-input/gaia-text-input.js"></script>
+  <script src="bower_components/gaia-text-input/gaia-text-input-pin.js"></script>
+  <script src="bower_components/gaia-sub-header/gaia-sub-header.js"></script>
+
+  <style type="text/css">
+    #up {
+      position: fixed;
+      top: 0px;
+      width: 400px;
+    }
+    #bottom {
+      position: fixed;
+      top: 90px;
+      width: 400px;
+    }
+    gaia-text-input {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      width: 300px;
+    }
+    gaia-button {
+      position: absolute;
+      top: 27px;
+      left: 320px;
+    }
+  </style>
+</head>
+<body role="application">
+  <section id="up">
+    <gaia-sub-header>Facebook sharing</gaia-sub-header>
+  </section>
+  <section>
+    <gaia-text-input placeholder="what's on your mind" required></gaia-text-input>
+    <gaia-button circular><i data-icon="facebook"></i></gaia-button>
+  </section>
+  <section id="bottom">
+    <gaia-sub-header>Next item</gaia-sub-header>
+  </section>
+</body>
+</html>
+
